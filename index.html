@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Какво е SEO оптимизация?</title>
+
+    <style>
+        h1 {
+            font-size: 2em;
+            margin: .67em 0;
+        }
+
+        figure {
+            display: block;
+        }
+
+        figure {
+            margin: 1em 2.5rem;
+        }
+
+        hr {
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+            height: 0;
+            overflow: visible;
+        }
+
+        a {
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects;
+        }
+
+        a:active,
+        a:hover {
+            outline-width: 0;
+        }
+
+        strong {
+            font-weight: inherit;
+            font-weight: bolder;
+        }
+
+        img {
+            border-style: none;
+        }
+
+        h1,
+        h2 {
+            font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+
+        h1,
+        h2 {
+            font-weight: 500;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            line-height: 3.25rem;
+            margin-top: 6.5rem;
+            margin-bottom: 1.625rem;
+        }
+
+        h2 {
+            font-size: 1.6875rem;
+            line-height: 2.4375rem;
+        }
+
+        h2 {
+            margin-top: 3.25rem;
+            margin-bottom: .8125rem;
+        }
+
+        img {
+            max-width: 100%;
+            margin: inherit auto;
+        }
+
+        hr,
+        img {
+            border: 0;
+            display: block;
+        }
+
+        hr {
+            color: #222;
+            height: 26px;
+            margin: 3.25rem auto;
+            background-size: 100% 26px;
+            background-image: linear-gradient(180deg, transparent 1px, transparent 11px, #222 0, #222 15px, transparent 0, transparent 26px);
+            width: 6.25rem;
+        }
+
+        a {
+            color: #0090d4;
+            text-decoration: none;
+        }
+
+        a:active,
+        a:focus,
+        a:hover {
+            color: #f05a22;
+        }
+
+        strong {
+            font-weight: 500;
+        }
+
+        ul {
+            list-style: square;
+            margin-bottom: 1.625rem;
+        }
+
+        ul li {
+            padding: 0 .3125rem;
+            margin-bottom: .625rem;
+        }
+
+        p {
+            line-height: 1.625rem;
+            margin-bottom: 1.625rem;
+        }
+
+        figure {
+            display: block;
+            height: auto;
+        }
+
+        .layout {
+            max-width: 66.875rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .layout:after,
+        .layout:before {
+            content: "";
+            display: table;
+        }
+
+        .layout:after {
+            clear: both;
+        }
+
+        .article-single__inner {
+            max-width: 59.0625rem;
+            padding: 0 .9375rem;
+            margin: 0 auto;
+        }
+
+        .article-single__title {
+            font-size: 2rem;
+            max-width: 40rem;
+            font-weight: 600;
+            text-align: center;
+            line-height: 2.68125rem;
+            margin: 1.625rem auto 0;
+        }
+
+        .article-single__body figure {
+            margin-bottom: 1.625rem;
+        }
+
+        .article-single__body a {
+            text-decoration: underline;
+        }
+
+        .article-single__body :not(div) {
+            max-width: 40rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .article-single__body img {
+            max-width: 100%;
+        }
+
+        .article-single__footer {
+            max-width: 40rem;
+            line-height: 1.625rem;
+            margin: 1.625rem .9375rem 3.25rem;
+        }
+
+        .article-single__footer-text a {
+            text-decoration: underline;
+        }
+
+        .article-single__date {
+            max-width: 40rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .article-single__tags {
+            margin-bottom: .8125rem;
+        }
+
+        .article-single__tags-list {
+            list-style: none;
+            margin: 0 -.3125rem;
+            padding: 0;
+        }
+
+        .article-single__tags-list-item {
+            display: inline-block;
+            margin: .625rem .3125rem;
+        }
+
+        .article-single__tags-list-item-link {
+            background: #ebebeb;
+            text-decoration: none;
+            border: 0;
+            border-radius: .1875rem;
+            color: #555;
+            line-height: 1.625;
+            padding: .5rem 1rem;
+        }
+
+        .article-single__tags-list-item-link:focus,
+        .article-single__tags-list-item-link:hover {
+            color: #222;
+            background: #dfdfdf;
+            border: 0;
+        }
+
+        .article-single__home-button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1rem;
+            padding: 0 1rem;
+            height: 35px;
+            line-height: 2.1875rem;
+            text-align: center;
+            color: #555;
+            background: #ebebeb;
+            font-weight: 400;
+            border-radius: .1875rem;
+            margin-top: 1.625rem;
+        }
+
+        .article-single__home-button:focus,
+        .article-single__home-button:hover {
+            color: #222;
+            background: #dfdfdf;
+            border: 0;
+        }
+
+        @media screen and (min-width:685px) {
+            .article-single__footer {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        @media screen and (min-width:960px) {
+            .article-single__inner {
+                padding: 0;
+            }
+
+            .article-single__title {
+                font-size: 3rem;
+                line-height: 3.65625rem;
+                margin-top: 3.65625rem;
+                margin-bottom: 2.4375rem;
+            }
+
+            .article-single__body,
+            .article-single__body p {
+                font-size: 1.125rem;
+                line-height: 1.82813rem;
+                margin-bottom: 1.82813rem;
+            }
+
+            .article-single__home-button {
+                position: fixed;
+                margin: 0;
+                top: 30px;
+                left: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <div>
+            <div>
+                <div><a class="article-single__home-button" href="/">Какво е SEO оптимизация на сайтове за Google? </a></div>
+                <div class="article-single">
+                    <div class="article-single__inner">
+                        <h1 class="article-single__title">Какво е SEO оптимизация на сайтове за Google?</h1>
+                        <div class="article-single__body">
+                            <p>За да бъде даден сайт разпознаваем в Интернет като бранд, продукт или услуга, той трябва да се показва в топ 3 резултати на google за ключови думи които продават. Така ще привлича голям трафик и ще продава повече. За да се постигне това трябва да избере да партнира с доказана SEO агенция която чрез <a href="https://blog7.org/seo-uslugi/seo-optimizacia-saitove/" target="_blank">SEO оптимизация</a> ще позиционира сайта му в челните органичните резултати на първа страница в търсачката. Потърсете фразата „Оптимизация на сайт за google” и разгледайте първите 5 сайта. Те са истински професионалисти които могат да помогнат за да стане сайта ви разпознаваем и да увеличи трафика и продажбите си онлайн.</p>
+
+                            <p>В настоящата статия ще отговорим на въпроси като „Какво е SEO“, Как се прави правилно оптимизация за сайтове“, „Как работи онлайн маркетинга“ и други интересни неща. </p>
+
+                            <h2>Какво е SEO?</h2>
+							<p style="text-align: center;">
+                                <a href="https://ibb.co/3SR1ddM"><img src="https://i.ibb.co/HGh744x/kakvo-e-seo-optimizacia.jpg" alt="kakvo-e-seo-optimizacia" border="0"></a>
+                                        </p>
+
+
+                            <p>Краткият отговор е абревиатурата Search Engine Optimisation (оптимизация за търсачки). Необходимостта от тази дейност се появи след като уебмастерите осъзнаха че могат да манипулират резултатите в органичната част и да карат търсачките да показват на първите си страници сайтове които в повечето случаи не заслужават да са там. Всички собственици на бизнес сайтове търсеха начин как точно сайтът им да се показва в топ 3 безплатни позиции и да обират трафик и клиенти от конкуренцията си. Така желанието на бизнеса да се класира на челни места роди SEO-то. Но тук винаги стои актуален въпросът дали конкретния сайт заслужава позициите си и колко е етично да е там. </p>
+
+                            <p>Когато един сайт се класира на първа страница в гугл увеличава трафика си и шанса да продаде стоки и услуги. Таргетирания трафик увеличава конверсиите и бизнесмена увеличава приходите си. </p>
+
+                            <p>SEO оптимизация на сайт се разделя на 2 действия:
+							<ul>
+							<li>On page</li>
+							<li>Off page</li>
+							</ul>
+							</p>
+							<p>При On-site оптимизация SEO експертите работят по кода, структурата и метаданните на сайта, а при Off-site оптимизация работят по изграждането на качествени входящи връзки към сайта (линк билдинг).</p>
+							<p>Целта е сайта да се класира заради качествено съдържание и точен линк профил в органичните резултати в SERP (Search Engine Results Page). </p>
+
+                            <h2>Как се прави SEO оптимизация?</h2>
+							<p style="text-align: center;">
+                                <a href="https://ibb.co/xHKttwS"><img src="https://i.ibb.co/q5L33hM/seo-copywriting-uslugi.jpg" alt="seo-copywriting-uslugi" border="0"></a></p>
+								
+
+                            <p>Преди SEO специалистите да се заемат със оптимизацията на вашия сайт те ще му направят един SEO одит на техническата му част, и SEO анализ на линк профила. Това ще бъде отправната точка за да се изготви последващата стратегия за поне една година напред. Потърсете един опитен <a href="https://blog7.org/seo-konsultatsii/" target="_blank">SEO анализатор</a> на който да възложите задачата да работи по сайта ви. От неговата работа зависи всичко.</p>
+
+<h3>Техническо SEO</h3>
+                            <p>Техническата оптимизация на кода на сайта е работа на програмистите които преди да пуснат сайта в Интернет ще трябва да изчистят всякакви грешки и да оправят всякакви неточности или проблеми които впоследствие може да влияят лошо за позициониранет му в топ резултатите в гугл. Задачата на SEO екипа е да работи заедно с екипа от програмисти за да се изчистят всички грешки преди официалното пускане на сайта онлайн.  максимално грамотно да предаде инструкциите към тях. Тук дял имат и уеб дизайнерите които изграждат front-end частта на сайта която трябва да бъде красива, функционална и максимално опростена за да може посетителя да се ориентира с 3 клика преди да купи нещо.</p>
+
+<h3>Проучване и анализ на ключовите думи </h3>
+<p>Всички казват че съдържанието е царя и без съдържание няма какво да класираш. И са прави. Грамотно написаното съдържание в сайта е работа на SEO копирайтър който ще избере правилните ключови думи които носят трафик и клиенти. Писането на съдържание за уебсайтове е изключително сериозна работа която изисква много сериозни познания в областта на журналистиката, филологията и познаването в детайли конкретния бизнес. Специализацията на copywriter трябва да бъде в конкретната ниша и област за да може максимално да обхване темата и да създаде едно уникално и неповторимо съдържание което на 60% ще класира сайта в нишата си.</p>
+<h3>Оптимизиране на полезно съдържание</h3>
+<p>Тесктовете които продават се пишат от професионалисти content writers които се занимават професионално с писане на съдържание за web в продължение на години. Те придават стойност и полезност, интересни са за четене и грабват посетителя веднага. Наситеността на ключовите думи е балансирана и всичко е поднесено с такава лекота че ти е приятно да го прочетеш и а се информираш. А от там следват и покупките. Когато доверието на клиента е спвечелено той много по-лесно купува.</p>
+<h2>Външен линк билдинг (link building services)</h2>
+<p style="text-align: center;">
+                                <a href="https://ibb.co/8DHgDb3"><img src="https://i.ibb.co/qMvYMCG/link-bilding-strategii.jpg" alt="link-bilding-strategii" border="0"></a></p>
+
+<p>Добре построеният линк профил на един сайт е ключова предпоставка сайта да се класира преди конкурентите си. Но качествените линкове се намират много трудно и има търговия с тях, въпреки че google приема това за спам и наказва сайтовете които продават или купуват линкове или участват в линк схеми. Линк от авторитетен сайт който е и релевантен в нишата ни е изключително ценен и когато се получи натурално търсачката увеличава доверието си и към нашия сайт. 
+</p>
+<h2>Какво е SEO оптимизация за търсачки?</h2>
+<p>Най-силно влияние на този въпрос оказва човешкия фактор. Ако сайта се посещава от реални хора, които го споделят с приятелите си в социалните мрежи, препоръчват го защото са купили нещо на добра цена и са доволни от изживяното удоволствие да пазаруват онлайн ще накара и търсачките да харесват сайта и да го показват в топ резултати. Не забравяйте че търсачките следват алгоритми и изследват човешкото поведение. Сайт с голям трафик и изграден бранд много трудно ще бъде изместен от първите 3 органични позиции за стотици или хиляди ключови думи.  Затова SEO професионалистите оптимизират сайта първо за хората и после за търсещите машини. Ако хората са доволни и търсачките ще са доволни. </p>
+
+
+	   </div>
+                        <div class="article-single__date"><em>29 Юни 2021</em></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
